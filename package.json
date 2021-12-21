@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "koa": "^2.13.4"
+  },
+  "dependencies": {
+    "@vue/compiler-dom": "^3.2.26",
+    "@vue/compiler-sfc": "^3.2.26",
+    "vue": "^3.2.26"
+  }
+}

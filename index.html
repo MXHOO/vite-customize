@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"></div>
+  <div>测试</div>
+  <!-- 浏览器识别type = 'module'引入js文件的时候，内部的import会发起一个网络请求，尝试去获取该文件 -->
+  <!-- vite: 使用koa启动一个http服务,拦截请求，返回合适的结果 -->
+  <script type="module" src="/src/index.js">
+  </script>
+</body>
+</html>
